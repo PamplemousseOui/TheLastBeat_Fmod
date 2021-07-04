@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{45f2c49a-f630-4dbe-8abc-86a1676f3077}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>Amb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2c846752-d631-4ba9-be61-2d0e78db2ee3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8baae86f-1718-49c1-9882-3ff858392969}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{575c86da-9efa-4a5d-aacb-d3c05ce945ef}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2c846752-d631-4ba9-be61-2d0e78db2ee3}">
+		<relationship name="effects">
+			<destination>{862d9bb9-dd90-41c7-b939-e0ab7aebcdca}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8baae86f-1718-49c1-9882-3ff858392969}" />
+	<object class="MixerBusFader" id="{862d9bb9-dd90-41c7-b939-e0ab7aebcdca}" />
+</objects>

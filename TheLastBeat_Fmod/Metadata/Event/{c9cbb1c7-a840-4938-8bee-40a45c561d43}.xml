@@ -59,7 +59,7 @@
 			<destination>{6947672d-afac-474c-9374-c3544fdd38cc}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{63eb1ddd-6adb-4877-961c-bd1175004ec4}</destination>
+			<destination>{13d3f6e6-13ab-40c4-aae0-54f26239decb}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ab087b5b-f6cd-4410-ba83-7d84a616f9d5}" />
@@ -325,7 +325,6 @@
 		<property name="name">
 			<value>Name</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>
@@ -334,7 +333,6 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -497,7 +495,6 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>

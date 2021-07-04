@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{6142f8a0-e9b7-44d8-b28d-d4530e2a13d9}">
+		<property name="name">
+			<value>RTPC_LifeSupport_Intensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b71f6eb6-59f0-4664-beb8-b39257c41ef0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d5ecc42d-7900-4332-88c7-7d402201c0e4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d5ecc42d-7900-4332-88c7-7d402201c0e4}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
