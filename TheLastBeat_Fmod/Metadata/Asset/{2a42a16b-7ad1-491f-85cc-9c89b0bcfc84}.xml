@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{2a42a16b-7ad1-491f-85cc-9c89b0bcfc84}">
+		<property name="assetPath">
+			<value>SFX/Foleys/Police/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{886ff351-787d-4d54-84fc-a49700abec6d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{9a5a996d-ebf9-4bf1-962a-7a9f2d31dc49}">
 		<property name="name">
-			<value>Foley_Intern_Footsteps_Stop</value>
+			<value>Foley_Police_Footsteps_Stop</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

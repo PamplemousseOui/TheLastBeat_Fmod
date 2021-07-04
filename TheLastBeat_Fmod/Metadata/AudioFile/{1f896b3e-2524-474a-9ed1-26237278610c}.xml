@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{1f896b3e-2524-474a-9ed1-26237278610c}">
 		<property name="assetPath">
-			<value>Foley_Character_Intern_Footsteps-008.wav</value>
+			<value>SFX/Foleys/Police/Foley_Character_Police_Footsteps-008.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
