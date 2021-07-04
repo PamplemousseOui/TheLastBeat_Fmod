@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{fc781c16-c05d-49ad-996c-4c3200264447}">
+		<property name="assetPath">
+			<value>Foley_Character_Intern_Footsteps-009.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.51868749999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{886ff351-787d-4d54-84fc-a49700abec6d}</destination>
+		</relationship>
+	</object>
+</objects>
