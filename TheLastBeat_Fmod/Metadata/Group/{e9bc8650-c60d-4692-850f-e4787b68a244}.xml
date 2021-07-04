@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{e9bc8650-c60d-4692-850f-e4787b68a244}">
+		<property name="name">
+			<value>Cardio</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2cfce2a2-161d-4c47-accd-8f3c8e9fa87a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{92d9b5f5-35ac-4863-8e0b-d55dc635c978}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{575c86da-9efa-4a5d-aacb-d3c05ce945ef}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2cfce2a2-161d-4c47-accd-8f3c8e9fa87a}">
+		<relationship name="effects">
+			<destination>{55140d2f-5d26-4785-94ca-4d06e5b3c3e1}</destination>
+			<destination>{52dd8f5f-bd37-447c-bd89-46705e75887b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{92d9b5f5-35ac-4863-8e0b-d55dc635c978}" />
+	<object class="MixerBusFader" id="{55140d2f-5d26-4785-94ca-4d06e5b3c3e1}" />
+	<object class="MixerSend" id="{52dd8f5f-bd37-447c-bd89-46705e75887b}">
+		<property name="level">
+			<value>-12</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{220cf8be-ec3b-46dc-bede-5bec8b9269ba}</destination>
+		</relationship>
+	</object>
+</objects>
